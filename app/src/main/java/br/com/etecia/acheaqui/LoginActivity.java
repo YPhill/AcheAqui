@@ -50,6 +50,15 @@ public class LoginActivity extends AppCompatActivity {
                             MenuPrincipalActivity.class);
                     //passar parâmetros para outras janelas
                     startActivity(intent);
+
+
+                    Toast.makeText(getApplicationContext(),
+                            "Bem vindo!",
+                            Toast.LENGTH_SHORT).show();
+                }else{
+                    Toast.makeText(getApplicationContext(),
+                            "Usuário ou senha inválidos",
+                            Toast.LENGTH_SHORT).show();
                 }
 
             }
@@ -69,12 +78,7 @@ public class LoginActivity extends AppCompatActivity {
 
     }
 
-    public void login(View view){
-        Toast.makeText(getApplicationContext(),
-                "logado com sucesso",
-                Toast.LENGTH_SHORT).show();
 
-    }
 
 
 }

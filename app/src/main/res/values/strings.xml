@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">AcheAqui</string>
-    <string name="email">email</string>
-    <string name="senha">senha</string>
+    <string name="Email">Email</string>
+    <string name="Senha">Senha</string>
 </resources>
