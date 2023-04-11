@@ -2,4 +2,6 @@
     <string name="app_name">AcheAqui</string>
     <string name="Email">Email</string>
     <string name="Senha">Senha</string>
+    <string name="navopen">navigation_drawer_open</string>
+    <string name="navclose">navigation_drawer_close</string>
 </resources>

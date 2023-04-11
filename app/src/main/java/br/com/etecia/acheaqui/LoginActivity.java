@@ -47,7 +47,7 @@ public class LoginActivity extends AppCompatActivity {
                 if (email.equals("etecia")&&senha.equals("etecia")){
                     //entrar aqui..
                     Intent intent = new Intent(getApplicationContext(),
-                            MenuPrincipalActivity.class);
+                            MainActivity.class);
                     //passar parâmetros para outras janelas
                     startActivity(intent);
 
